@@ -1,10 +1,13 @@
-## React + Vite Fresh Project
+## React & MUI with Vite
 
-```cmd
+MUI is a advance level React friendly CSS framework. It can integrate Tailwind CSS also. MUI follow Google's material design system. 
 
-    git clone https://github.com/mhasanmeet/React_Fresh_Vite.git
-```
+install MUI
 
-```cmd
-    git remote remove origin
-```
+```npm install @mui/material @emotion/react @emotion/styled```
+
+install Material Icon
+
+```npm install @mui/icons-material```
+
+:57
