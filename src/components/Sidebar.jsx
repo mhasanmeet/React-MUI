@@ -1,9 +1,8 @@
-import styled from '@emotion/styled'
 import { AccountBox, Article, Group, Home, ModeNight, People, Settings, Storefront } from '@mui/icons-material'
-import { Box, FormControlLabel, FormGroup, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Switch } from '@mui/material'
+import { Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Switch } from '@mui/material'
 import React from 'react'
 
-function Sidebar() {
+function Sidebar({mode,setMode}) {
   return (
     <Box 
         bgcolor="" 
@@ -65,7 +64,7 @@ function Sidebar() {
             <ListItem>
               <ListItemButton component="a" href="#profile">
               <ListItemIcon><ModeNight/></ListItemIcon>
-              <Switch defaultChecked />
+              <Switch onChange={() =>setMode(mode === "light" ? "dark" : "light")}/>
               </ListItemButton>
             </ListItem>
           </List>

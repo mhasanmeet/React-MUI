@@ -50,7 +50,7 @@ function Navbar() {
   return (
     <AppBar position="sticky">
         <StyledToolbar>        
-            <Typography variant="h6" sx={{display: {xs: "none", sm: "block"}, display: "flex", gap: 1, alignItems: "center"}}>
+            <Typography variant="h6" sx={{display: {xs: "none", sm: "block"}, gap: 1, alignItems: "center"}}>
                 <Adb/> Android
             </Typography>
             <Adb sx={{display: {xs: "block", sm: "none"}}}/>
